@@ -14,16 +14,13 @@ async def start(c, m):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "🍬 Project channel", url="https://telegram.me/MHND_BOT_UPDATE_CHANNEL"
-                    ),
-                    InlineKeyboardButton("🍭 Support group", url="https://telegram.me/MHND_BOT_UPDATE_GROUP"),
+                    InlineKeyboardButton('🍬 Project channel', url='https://telegram.me/MHND_BOT_UPDATE_CHANNEL'),
+                    InlineKeyboardButton('🍭 Support group', url='https://telegram.me/MHND_BOT_UPDATE_GROUP')
                 ],
-                [InlineKeyboardButton(
-                     "🌹 Source code 🌹", url="https://github.com/github2tg/FILE_ANIMATING"
-                     ).
-                     InlineKeyboardButton("👩‍💻 Master", url="https://telegram.me/MHND_KDR")],
+                [
+                    InlineKeyboardButton('🌹 Source code 🌹', url='https://github.com/github2tg/FILE_ANIMATING'),
+                    InlineKeyboardButton('👩‍💻 Master', url='https://telegram.me/MHND_KDR')
+                ]
             ]
-        ),
+        )
     )
-)
