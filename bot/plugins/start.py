@@ -19,7 +19,7 @@ async def start(c, m):
                     InlineKeyboardButton('🍭 Support group', url='https://telegram.me/MHND_BOT_UPDATE_GROUP')
                 ],
                 [
-                    InlineKeyboardButton('🌹 Source code 🌹', url='https://github.com/github2tg/FILE_ANIMATING'),
+                    InlineKeyboardButton('🌹 Source code 🌹', url='https://github.com/github1tg/Screenshot-Bot'),
                     InlineKeyboardButton('👩‍💻 Master', url='https://telegram.me/MHND_KDR')
                 ]
             ]
