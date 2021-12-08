@@ -15,7 +15,7 @@ async def start(c, m):
             [
                 [
                     InlineKeyboardButton(
-                        "Source 😒", url="https://github.com/odysseusmax/animated-lamp"
+                        "🍬 Project channel", url="https://telegram.me/MHND_BOT_UPDATE_CHANNEL"
                     ),
                     InlineKeyboardButton("Project Channel", url="https://t.me/odbots"),
                 ],
