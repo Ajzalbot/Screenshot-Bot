@@ -20,7 +20,7 @@ class Messages:
     )
     PROCESS_UPLOAD_CONFIRM = (
         "Successfully completed process in {total_process_duration}\n\n"
-        "If You find me helpful, please rate me [tg://resolve?domain=MHND_BOT_UPDATE_CHANNEL&post=148)."
+        "How is this bot..🤔🥴 [Click here](tg://resolve?domain=MHND_BOT_UPDATE_CHANNEL&post=148)."
     )
     WRONG_FORMAT = "Please follow the specified format"
     VIDEO_PROCESS_CAPTION = "Sample video. {duration}s from {start}"
