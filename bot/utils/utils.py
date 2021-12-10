@@ -303,9 +303,5 @@ class Utilities:
                         btns.append(InlineKeyboardButton("📝Get Media Information📝", "mi")),
                         btns.append(InlineKeyboardButton("📸𝑺𝒂𝒎𝒑𝒍𝒆 𝑽𝒊𝒅𝒆𝒐📸", "smpl")),
                     ]]
-                 )
-             
-         
-     
-        return btns
+                        return btns
  
