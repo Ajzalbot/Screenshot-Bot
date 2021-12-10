@@ -9,7 +9,6 @@ import aiohttp
 from bot.screenshotbot import ScreenShotBot
 from bot.messages import Messages as ms
 from bot.config import Config
-from bot.utils import ProcessTypes
 from bot.processes import ProcessFactory
 
 
