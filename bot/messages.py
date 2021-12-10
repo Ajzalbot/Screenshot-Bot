@@ -39,28 +39,28 @@ class Messages:
         "𝘴𝘵𝘳𝘦𝘢𝘮 𝘭𝘪𝘯𝘬 : {file_link}\n\n𝘚𝘢𝘮𝘱𝘭𝘦 𝘷𝘪𝘥𝘦𝘰 𝘳𝘦𝘲𝘶𝘦𝘴𝘵𝘦𝘥\n\n{duration}"
     )
 
-    SCREENSHOTS_PROGRESS = "🤣 `{current}` of `{total}` generated!"
+    SCREENSHOTS_PROGRESS = "🤣 `{current}` 𝒐𝒇 `{total}` 𝒈𝒆𝒏𝒆𝒓𝒂𝒕𝒆𝒅!"
     MANUAL_SCREENSHOTS_OPEN_ERROR = (
-        "stream link : {file_link}\n\nRequested manual screenshots\n\n{duration}"
+        "𝘴𝘵𝘳𝘦𝘢𝘮 𝘭𝘪𝘯𝘬 : {file_link}\n\n𝘙𝘦𝘲𝘶𝘦𝘴𝘵𝘦𝘥 𝘮𝘢𝘯𝘶𝘢𝘭 𝘴𝘤𝘳𝘦𝘦𝘯𝘴𝘩𝘰𝘵𝘴\n\n{duration}"
     )
     MANUAL_SCREENSHOTS_NO_VALID_POSITIONS = (
-        "😢 Sorry! None of the given positions where valid!"
+        "😢 𝚂𝚘𝚛𝚛𝚢! 𝙽𝚘𝚗𝚎 𝚘𝚏 𝚝𝚑𝚎 𝚐𝚒𝚟𝚎𝚗 𝚙𝚘𝚜𝚒𝚝𝚒𝚘𝚗𝚜 𝚠𝚑𝚎𝚛𝚎 𝚟𝚊𝚕𝚒𝚍!"
     )
     MANUAL_SCREENSHOTS_VALID_PISITIONS_ABOVE_LIMIT = (
-        "😢 Sorry! Only 10 screenshots can be generated. Found {valid_positions_count} "
-        "valid positions in your request"
+        "😢 𝚂𝚘𝚛𝚛𝚢! 𝙾𝚗𝚕𝚢 20 𝚜𝚌𝚛𝚎𝚎𝚗𝚜𝚑𝚘𝚝𝚜 𝚌𝚊𝚗 𝚋𝚎 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚎𝚍. 𝙵𝚘𝚞𝚗𝚍 {valid_positions_count} "
+        "𝚟𝚊𝚕𝚒𝚍 𝚙𝚘𝚜𝚒𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚢𝚘𝚞𝚛 𝚛𝚎𝚚𝚞𝚎𝚜𝚝"
     )
     MANUAL_SCREENSHOTS_INVALID_POSITIONS_ALERT = (
-        "Found {invalid_positions_count} invalid positions ({invalid_positions}).\n\n"
-        "💚💚 Generating screenshots after ignoring these!."
+        "𝙵𝚘𝚞𝚗𝚍 {invalid_positions_count} 𝚒𝚗𝚟𝚊𝚕𝚒𝚍 𝚙𝚘𝚜𝚒𝚝𝚒𝚘𝚗𝚜 ({invalid_positions}).\n\n"
+        "💚💚 𝙶𝚎𝚗𝚎𝚛𝚊𝚝𝚒𝚗𝚐 𝚜𝚌𝚛𝚎𝚎𝚗𝚜𝚑𝚘𝚝𝚜 𝚊𝚏𝚝𝚎𝚛 𝚒𝚐𝚗𝚘𝚛𝚒𝚗𝚐 𝚝𝚑𝚎𝚜𝚎!."
     )
     MANUAL_SCREENSHOTS_FAILED_GENERATION = (
-        "stream link : {file_link}\n\nmanual screenshots {raw_user_input}."
+        "𝘴𝘵𝘳𝘦𝘢𝘮 𝘭𝘪𝘯𝘬 : {file_link}\n\n𝘮𝘢𝘯𝘶𝘢𝘭 𝘴𝘤𝘳𝘦𝘦𝘯𝘴𝘩𝘰𝘵𝘴 {raw_user_input}."
     )
 
-    TRIM_VIDEO_INVALID_RANGE = "The range you provided is invalid!"
+    TRIM_VIDEO_INVALID_RANGE = "𝚃𝚑𝚎 𝚛𝚊𝚗𝚐𝚎 𝚢𝚘𝚞 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚍 𝚒𝚜 𝚒𝚗𝚟𝚊𝚕𝚒𝚍!"
     TRIM_VIDEO_DURATION_ERROR = (
-        "Please provide any range that's upto {max_duration}s."
+        "𝙿𝚕𝚎𝚊𝚜𝚎 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚊𝚗𝚢 𝚛𝚊𝚗𝚐𝚎 𝚝𝚑𝚊𝚝'𝚜 𝚞𝚙𝚝𝚘 {max_duration}𝚜."
         " Your requested range **{start}:{end}** is `{request_duration}s` long!"
     )
     TRIM_VIDEO_OPEN_ERROR = "stream link : {file_link}\n\ntrim video requested\n\n{start}:{end}\n\n{duration}"
