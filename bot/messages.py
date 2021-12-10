@@ -19,8 +19,8 @@ class Messages:
         "Now starting to upload!"
     )
     PROCESS_UPLOAD_CONFIRM = (
-        "Successfully completed process in {total_process_duration}\n\n"
-        "How is this bot..🤔🥴 [Click here](tg://resolve?domain=MHND_BOT_UPDATE_CHANNEL&post=148)."
+        "𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙚𝙙 𝙥𝙧𝙤𝙘𝙚𝙨𝙨 𝙞𝙣 {total_process_duration}\n\n"
+        "𝙃𝙤𝙬 𝙞𝙨 𝙩𝙝𝙞𝙨 𝙗𝙤𝙩..🤔🥴 [𝘾𝙡𝙞𝙘𝙠 𝙝𝙚𝙧𝙚.](tg://resolve?domain=MHND_BOT_UPDATE_CHANNEL&post=148)."
     )
     WRONG_FORMAT = "Please follow the specified format"
     VIDEO_PROCESS_CAPTION = "Sample video. {duration}s from {start}"
