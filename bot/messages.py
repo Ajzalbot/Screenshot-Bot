@@ -61,14 +61,14 @@ class Messages:
     TRIM_VIDEO_INVALID_RANGE = "𝚃𝚑𝚎 𝚛𝚊𝚗𝚐𝚎 𝚢𝚘𝚞 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚍 𝚒𝚜 𝚒𝚗𝚟𝚊𝚕𝚒𝚍!"
     TRIM_VIDEO_DURATION_ERROR = (
         "𝙿𝚕𝚎𝚊𝚜𝚎 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚊𝚗𝚢 𝚛𝚊𝚗𝚐𝚎 𝚝𝚑𝚊𝚝'𝚜 𝚞𝚙𝚝𝚘 {max_duration}𝚜."
-        " Your requested range **{start}:{end}** is `{request_duration}s` long!"
+        "𝚈𝚘𝚞𝚛 𝚛𝚎𝚚𝚞𝚎𝚜𝚝𝚎𝚍 𝚛𝚊𝚗𝚐𝚎 **{start}:{end}** 𝚒𝚜 `{request_duration}𝚜 𝚕𝚘𝚗𝚐!"
     )
-    TRIM_VIDEO_OPEN_ERROR = "stream link : {file_link}\n\ntrim video requested\n\n{start}:{end}\n\n{duration}"
+    TRIM_VIDEO_OPEN_ERROR = "𝘴𝘵𝘳𝘦𝘢𝘮 𝘭𝘪𝘯𝘬 : {file_link}\n\n𝘵𝘳𝘪𝘮 𝘷𝘪𝘥𝘦𝘰 𝘳𝘦𝘲𝘶𝘦𝘴𝘵𝘦𝘥\n\n{start}:{end}\n\n{duration}"
     TRIM_VIDEO_RANGE_OUT_OF_VIDEO_DURATION = (
-        "😢 Sorry! The requested range is out of the video's duration!."
+        "😢 𝚂𝚘𝚛𝚛𝚢! 𝚃𝚑𝚎 𝚛𝚎𝚚𝚞𝚎𝚜𝚝𝚎𝚍 𝚛𝚊𝚗𝚐𝚎 𝚒𝚜 𝚘𝚞𝚝 𝚘𝚏 𝚝𝚑𝚎 𝚟𝚒𝚍𝚎𝚘'𝚜 𝚍𝚞𝚛𝚊𝚝𝚒𝚘𝚗!."
     )
     TRIM_VIDEO_PROCESS_FAILED = (
-        "😿 Sorry! video trimming failed possibly due to some infrastructure failure 😢."
+        "😿 𝚂𝚘𝚛𝚛𝚢! 𝚟𝚒𝚍𝚎𝚘 𝚝𝚛𝚒𝚖𝚖𝚒𝚗𝚐 𝚏𝚊𝚒𝚕𝚎𝚍 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚢 𝚍𝚞𝚎 𝚝𝚘 𝚜𝚘𝚖𝚎 𝚒𝚗𝚏𝚛𝚊𝚜𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎 𝚏𝚊𝚒𝚕𝚞𝚛𝚎 😢."
     )
     TRIM_VIDEO_PROCESS_FAILED_GENERATION = "stream link : {file_link}\n\nVideo trim failed.\n\n{start}:{end}\n\n{ffmpeg_output}"
     TRIM_VIDEO_PROCESS_SUCCESS = (
