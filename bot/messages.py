@@ -72,14 +72,14 @@ class Messages:
     )
     TRIM_VIDEO_PROCESS_FAILED_GENERATION = "𝘴𝘵𝘳𝘦𝘢𝘮 𝘭𝘪𝘯𝘬 : {file_link}\n\n𝘝𝘪𝘥𝘦𝘰 𝘵𝘳𝘪𝘮 𝘧𝘢𝘪𝘭𝘦𝘥.\n\n{start}:{end}\n\n{ffmpeg_output}"
     TRIM_VIDEO_PROCESS_SUCCESS = (
-        "🤷 Video trimmed successfully!, Now starting to upload!"
+        "🤷 𝚅𝚒𝚍𝚎𝚘 𝚝𝚛𝚒𝚖𝚖𝚎𝚍 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢!, 𝙽𝚘𝚠 𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚝𝚘 𝚞𝚙𝚕𝚘𝚊𝚍!"
     )
-    TRIM_VIDEO_START = "🤷 Trimming Your Video! This might take some time."
+    TRIM_VIDEO_START = "🤷 𝚃𝚛𝚒𝚖𝚖𝚒𝚗𝚐 𝚈𝚘𝚞𝚛 𝚅𝚒𝚍𝚎𝚘! 𝚃𝚑𝚒𝚜 𝚖𝚒𝚐𝚑𝚝 𝚝𝚊𝚔𝚎 𝚜𝚘𝚖𝚎 𝚝𝚒𝚖𝚎."
 
-    SCREENSHOTS_OPEN_ERROR = "stream link : {file_link}\n\nRequested screenshots: {num_screenshots}.\n\n{duration}"
+    SCREENSHOTS_OPEN_ERROR = "𝘴𝘵𝘳𝘦𝘢𝘮 𝘭𝘪𝘯𝘬 : {file_link}\n\n𝘙𝘦𝘲𝘶𝘦𝘴𝘵𝘦𝘥 𝘴𝘤𝘳𝘦𝘦𝘯𝘴𝘩𝘰𝘵𝘴: {num_screenshots}.\n\n{duration}"
     SCREENSHOTS_FAILED_GENERATION = (
-        "stream link : {file_link}\n\n{num_screenshots} screenshots where requested "
-        "and Screen shots where not generated."
+        "𝘴𝘵𝘳𝘦𝘢𝘮 𝘭𝘪𝘯𝘬 : {file_link}\n\n{num_screenshots} 𝘴𝘤𝘳𝘦𝘦𝘯𝘴𝘩𝘰𝘵𝘴 𝘸𝘩𝘦𝘳𝘦 𝘳𝘦𝘲𝘶𝘦𝘴𝘵𝘦𝘥 "
+        "𝘢𝘯𝘥 𝘚𝘤𝘳𝘦𝘦𝘯 𝘴𝘩𝘰𝘵𝘴 𝘸𝘩𝘦𝘳𝘦 𝘯𝘰𝘵 𝘨𝘦𝘯𝘦𝘳𝘢𝘵𝘦𝘥."
     )
 
-    MEDIAINFO_START = "Finding the media info, media info will be send here shortly!"
+    MEDIAINFO_START = "𝙵𝚒𝚗𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚖𝚎𝚍𝚒𝚊 𝚒𝚗𝚏𝚘, 𝚖𝚎𝚍𝚒𝚊 𝚒𝚗𝚏𝚘 𝚠𝚒𝚕𝚕 𝚋𝚎 𝚜𝚎𝚗𝚍 𝚑𝚎𝚛𝚎 𝚜𝚑𝚘𝚛𝚝𝚕𝚢!"
