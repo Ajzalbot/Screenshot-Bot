@@ -301,7 +301,7 @@ class Utilities:
         btns.append([InlineKeyboardButton("⚙️Trim Video⚙️", "trim")]),
         ],[
         btns.append([InlineKeyboardButton("📝Get Media Information📝", "mi")]),
-        btns.append([InlineKeyboardButton("Generate Sample Video!", "smpl")]),
+        btns.append([("", "smpl")]),
         ],
         return btns
    
