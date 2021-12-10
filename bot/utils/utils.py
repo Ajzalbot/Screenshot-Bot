@@ -288,13 +288,14 @@ class Utilities:
     @staticmethod
     def gen_ik_buttons():
         btns = []
+        i_keyboardimoji = 📷
         i_keyboard = []
         for i in range(1, 21):
             i_keyboard.append(InlineKeyboardButton(f"{i}", f"scht+{i}"))
             if (i > 1) and (i % 5) == 0:
                 btns.append(i_keyboard)
                 i_keyboard = []
-            if i == 📷21:
+            if i == 21:
                 btns.append(i_keyboard)
         btns.append([InlineKeyboardButton("✂️Manual Screenshots✂️", "mscht")])
         btns.append([InlineKeyboardButton("⚙️Trim Video⚙️", "trim")])
