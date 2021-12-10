@@ -296,7 +296,7 @@ class Utilities:
                 i_keyboard = []
             if i == 21:
                 btns.append(i_keyboard)
-        btns.append( = [[
+        btns.append([[
                         InlineKeyboardButton("✂️Manual Screenshots✂️", "mscht"),
                         InlineKeyboardButton("⚙️Trim Video⚙️", "trim"),
                         ],[
