@@ -58,6 +58,28 @@ async def __(c, m):
                 resp = await resp.json()
                 neko_link = f"https://nekobin.com/{resp['result']['key']}"
         logger.debug(neko_link)
-        await m.edit_message_reply_markup(
-            InlineKeyboardMarkup([[InlineKeyboardButton("Web URL", url=neko_link)]])
+        await m.edit_message_reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("📸 1", 'tg+1'),
+                    InlineKeyboardButton('📸 2', 'tg+2')
+                ],
+                [
+                    InlineKeyboardButton('📸 3', 'tg+3'),
+                    InlineKeyboardButton('📸 4', 'tg+4')
+                ],
+                [
+                    InlineKeyboardButton('📸 5', 'tg+5'),
+                    InlineKeyboardButton('📸 6', 'tg+6')
+                ],
+                [
+                    InlineKeyboardButton('📸 7', 'tg+7'),
+                    InlineKeyboardButton('📸 8', 'tg+8')
+                ],
+                [
+                    InlineKeyboardButton('📸 9', 'tg+9')
+                    InlineKeyboardButton('📸 10', 'tg+10')
+                ]
+            ]
         )
+    )
