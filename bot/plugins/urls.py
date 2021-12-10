@@ -23,7 +23,7 @@ async def _(c, m):
             return
 
     snt = await m.reply_text(
-        "Hi there, Please wait while I'm getting everything ready to process your request!",
+        "🥱𝘏𝘪 𝘵𝘩𝘦𝘳𝘦, 𝘗𝘭𝘦𝘢𝘴𝘦 𝘸𝘢𝘪𝘵 𝘸𝘩𝘪𝘭𝘦 𝘐'𝘮 𝘨𝘦𝘵𝘵𝘪𝘯𝘨 𝘦𝘷𝘦𝘳𝘺𝘵𝘩𝘪𝘯𝘨 𝘳𝘦𝘢𝘥𝘺 𝘵𝘰 𝘱𝘳𝘰𝘤𝘦𝘴𝘴 𝘺𝘰𝘶𝘳 𝘳𝘦𝘲𝘶𝘦𝘴𝘵!😉",
         quote=True,
     )
 
