@@ -299,5 +299,5 @@ class Utilities:
         btns.append([InlineKeyboardButton("✂️Manual Screenshots✂️", "mscht")]),
         btns.append([InlineKeyboardButton("⚙️Trim Video⚙️", "trim")])
         btns.append([InlineKeyboardButton("📝Get Media Information📝", "mi")]),
-        b
+        btns.append([InlineKeyboardButton("📸𝑺𝒂𝒎𝒑𝒍𝒆 𝑽𝒊𝒅𝒆𝒐📸", "smpl")])
         return btns
