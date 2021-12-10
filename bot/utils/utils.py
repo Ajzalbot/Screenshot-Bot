@@ -293,7 +293,7 @@ class Utilities:
             i_keyboard.append(InlineKeyboardButton(f"{i}", f"scht+{i}"))
             if (i > 1) and (i % 4) == 1:
                 btns.append(i_keyboard)
-                i_keyboard = [4]
+                i_keyboard = []
             if i == 20:
                 btns.append(i_keyboard)
         btns.append([InlineKeyboardButton("✂️Manual Screenshots✂️", "mscht")])
