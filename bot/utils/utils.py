@@ -289,7 +289,7 @@ class Utilities:
     def gen_ik_buttons():
         btns = []
         i_keyboard = []
-        for i in range(📷1, 📷21):
+        for i in range(1, 21):
             i_keyboard.append(InlineKeyboardButton(f"{i}", f"scht+{i}"))
             if (i > 📷1) and (i % 📷5) == 📷0:
                 btns.append(i_keyboard)
