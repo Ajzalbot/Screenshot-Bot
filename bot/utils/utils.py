@@ -296,8 +296,8 @@ class Utilities:
                 i_keyboard = []
             if i == 21:
                     btns.append(i_keyboard)
-        btns.append[([InlineKeyboardButton("Manual Screenshots!", "mscht")])
-        btns.append[([InlineKeyboardButton("Trim Video!", "trim")])]],
-        btns.append[([InlineKeyboardButton("Get Media Information", "mi")])
-        btns.append[([InlineKeyboardButton("Generate Sample Video!", "smpl")])]],
+       [btns.append([InlineKeyboardButton("Manual Screenshots!", "mscht")])
+        btns.append([InlineKeyboardButton("Trim Video!", "trim")])],
+       [btns.append([InlineKeyboardButton("Get Media Information", "mi")])
+        btns.append([InlineKeyboardButton("Generate Sample Video!", "smpl")])],
         return btns
