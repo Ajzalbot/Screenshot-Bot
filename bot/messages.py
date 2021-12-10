@@ -1,7 +1,7 @@
 class Messages:
     ADDED_TO_QUEUE = (
-        "Your request has been added to the queue. If you have more than {per_user_process_count} "
-        "ongoing processes, then this process will only start after one of them finishes."
+        "𝚈𝚘𝚞𝚛 𝚛𝚎𝚚𝚞𝚎𝚜𝚝 𝚑𝚊𝚜 𝚋𝚎𝚎𝚗 𝚊𝚍𝚍𝚎𝚍 𝚝𝚘 𝚝𝚑𝚎 𝚚𝚞𝚎𝚞𝚎. 𝙸𝚏 𝚢𝚘𝚞 𝚑𝚊𝚟𝚎 𝚖𝚘𝚛𝚎 𝚝𝚑𝚊𝚗 {per_user_process_count} "
+        "𝚘𝚗𝚐𝚘𝚒𝚗𝚐 𝚙𝚛𝚘𝚌𝚎𝚜𝚜𝚎𝚜, 𝚝𝚑𝚎𝚗 𝚝𝚑𝚒𝚜 𝚙𝚛𝚘𝚌𝚎𝚜𝚜 𝚠𝚒𝚕𝚕 𝚘𝚗𝚕𝚢 𝚜𝚝𝚊𝚛𝚝 𝚊𝚏𝚝𝚎𝚛 𝚘𝚗𝚎 𝚘𝚏 𝚝𝚑𝚎𝚖 𝚏𝚒𝚗𝚒𝚜𝚑𝚎𝚜."
     )
     MEDIA_MESSAGE_DELETED = "Why did you delete the file 😡, Now i cannot help you 🤔."
     CANNOT_OPEN_FILE = "😢 𝖲𝗈𝗋𝗋𝗒! 𝖨 𝖼𝖺𝗇𝗇𝗈𝗍 𝗈𝗉𝖾𝗇 𝗍𝗁𝖾 𝖿𝗂𝗅𝖾."
