@@ -311,4 +311,17 @@ class Utilities:
          )
      
         return btns
- 
+ ________________________________________________________________________________________________________________________________________________________________
+ reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('🍬 Project channel', url='https://telegram.me/MHND_BOT_UPDATE_CHANNEL'),
+                    InlineKeyboardButton('🍭 Support group', url='https://telegram.me/MHND_BOT_UPDATE_GROUP')
+                ],
+                [
+                    InlineKeyboardButton('🌹 Source code 🌹', url='https://telegram.me/MHND_BOT_UPDATE_CHANNEL/145'),
+                    InlineKeyboardButton('👩‍💻 Master', url='https://telegram.me/MHND_KDR')
+                ]
+            ]
+        )
+    )
