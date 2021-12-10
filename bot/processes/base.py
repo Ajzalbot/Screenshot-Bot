@@ -2,7 +2,6 @@ from abc import ABC, abstractmethod
 
 from bot.config import Config
 from bot.messages import Messages as ms
-from bot.utils import Utilities
 
 
 class BaseProcess(ABC):
