@@ -5,7 +5,6 @@ import tempfile
 import datetime
 
 from bot.config import Config
-from bot.utils import Utilities
 from bot.messages import Messages as ms
 from bot.database import Database
 from .exception import BaseException
