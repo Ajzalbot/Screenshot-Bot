@@ -296,33 +296,16 @@ class Utilities:
                 i_keyboard = []
             if i == 21:
                 btns.append(i_keyboard)
-        btns.append(
-            [
-                 [
-                 
-                     InlineKeyboardButton("✂️Manual Screenshots✂️", "mscht"),
-                     InlineKeyboardButton("⚙️Trim Video⚙️", "trim")
-                 ],
-                 [
-                     InlineKeyboardButton("📝Get Media Information📝", "mi"),
-                     InlineKeyboardButton("📸𝑺𝒂𝒎𝒑𝒍𝒆 𝑽𝒊𝒅𝒆𝒐📸", "smpl")
-                 ]
-             ]
-         )
+        btns.append( = [[
+                        InlineKeyboardButton("✂️Manual Screenshots✂️", "mscht"),
+                        InlineKeyboardButton("⚙️Trim Video⚙️", "trim"),
+                        ],[
+                        InlineKeyboardButton("📝Get Media Information📝", "mi"),
+                        InlineKeyboardButton("📸𝑺𝒂𝒎𝒑𝒍𝒆 𝑽𝒊𝒅𝒆𝒐📸", "smpl"),
+                    ]]
+                 )
+             
+         
      
         return btns
- ________________________________________________________________________________________________________________________________________________________________
-
-buttons = [[
-            InlineKeyboardButton('🇸 🇵 🇪 🇨 🇮 🇦 🇱 ', callback_data='style+special'),
-            InlineKeyboardButton('🅂🅀🅄🄰🅁🄴🅂', callback_data='style+squares'),
-            InlineKeyboardButton('🆂︎🆀︎🆄︎🅰︎🆁︎🅴︎🆂︎', callback_data='style+squares_bold'),
-            ],[
-            InlineKeyboardButton('ꪖꪀᦔꪖꪶꪊᥴ𝓲ꪖ', callback_data='style+andalucia'),
-            InlineKeyboardButton('爪卂几ᘜ卂', callback_data='style+manga'),
-            InlineKeyboardButton('S̾t̾i̾n̾k̾y̾', callback_data='style+stinky'),
-        ]]
-        await m.answer()
-        await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
-    else:
-        await style_buttons(c, m, cb=True)
+ 
