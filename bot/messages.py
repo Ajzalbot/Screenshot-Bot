@@ -70,7 +70,7 @@ class Messages:
     TRIM_VIDEO_PROCESS_FAILED = (
         "😿 𝚂𝚘𝚛𝚛𝚢! 𝚟𝚒𝚍𝚎𝚘 𝚝𝚛𝚒𝚖𝚖𝚒𝚗𝚐 𝚏𝚊𝚒𝚕𝚎𝚍 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚢 𝚍𝚞𝚎 𝚝𝚘 𝚜𝚘𝚖𝚎 𝚒𝚗𝚏𝚛𝚊𝚜𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎 𝚏𝚊𝚒𝚕𝚞𝚛𝚎 😢."
     )
-    TRIM_VIDEO_PROCESS_FAILED_GENERATION = "stream link : {file_link}\n\nVideo trim failed.\n\n{start}:{end}\n\n{ffmpeg_output}"
+    TRIM_VIDEO_PROCESS_FAILED_GENERATION = "𝘴𝘵𝘳𝘦𝘢𝘮 𝘭𝘪𝘯𝘬 : {file_link}\n\n𝘝𝘪𝘥𝘦𝘰 𝘵𝘳𝘪𝘮 𝘧𝘢𝘪𝘭𝘦𝘥.\n\n{start}:{end}\n\n{ffmpeg_output}"
     TRIM_VIDEO_PROCESS_SUCCESS = (
         "🤷 Video trimmed successfully!, Now starting to upload!"
     )
