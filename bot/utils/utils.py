@@ -296,6 +296,14 @@ class Utilities:
                 i_keyboard = []
             if i == 21:
                 btns.append(i_keyboard)
+                btns = []
+                btns_keyboard = []
+                for btns in range(mscht, smpl):
+                    btns_keyboard.append(InlineKeyboardButton(f"{btns}", f"mscht+trim+mi+smpl+{btns}"))
+                    if (btns > mscht) and (btns % trim) == 0:
+                        btns.append(btns_keyboard)
+                        btns_keyboard = []
+                    if btns == smpl:
         [
         btns.append([InlineKeyboardButton("✂️Manual Screenshots✂️", "mscht")]),
         btns.append([InlineKeyboardButton("⚙️Trim Video⚙️", "trim")]),
