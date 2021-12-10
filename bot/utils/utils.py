@@ -296,10 +296,10 @@ class Utilities:
                 i_keyboard = []
             if i == 21:
                 btns.append(i_keyboard)
-        btns.append([InlineKeyboardButton("✂️𝑴𝒂𝒏𝒖𝒂𝒍 𝑺𝒄𝒓𝒆𝒆𝒏𝒔𝒉𝒐𝒕𝒔✂️", "mscht")]
+        btns.appends([InlineKeyboardButton("✂️𝑴𝒂𝒏𝒖𝒂𝒍 𝑺𝒄𝒓𝒆𝒆𝒏𝒔𝒉𝒐𝒕𝒔✂️", "mscht")]
                     [InlineKeyboardButton("⚙️𝑻𝒓𝒊𝒎 𝑽𝒊𝒅𝒆𝒐⚙️", "trim")]),
-                  ((
+                   (
                     ([InlineKeyboardButton("📝𝑴𝒆𝒅𝒊𝒂 𝑰𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏📝", "mi")]
-                     [InlineKeyboardButton("📸𝑺𝒂𝒎𝒑𝒍𝒆 𝑽𝒊𝒅𝒆𝒐📸", "smpl")]),
-                    )
+                     [InlineKeyboardButton("📸𝑺𝒂𝒎𝒑𝒍𝒆 𝑽𝒊𝒅𝒆𝒐📸", "smpl")])),
+                    
         return btns
