@@ -291,10 +291,7 @@ class Utilities:
         i_keyboard = []
         for i in range(1, 21):
             i_keyboard.append(InlineKeyboardButton(f"{i}", f"scht+{i}"))
-            if (i > 1) and (i % 5) == 1:
-            if (i > 6) and (i % 10) == 2:
-            if (i > 11) and (i % 15) == 3:
-            if (i > 16) and (i % 20) == 4:
+            if (i > 1) and (i % 5) = 1:
                 btns.append(i_keyboard)
                 i_keyboard = []
             if i == 20:
