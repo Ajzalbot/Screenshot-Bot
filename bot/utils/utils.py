@@ -336,24 +336,6 @@ buttons = [[
             InlineKeyboardButton('ꪖꪀᦔꪖꪶꪊᥴ𝓲ꪖ', callback_data='style+andalucia'),
             InlineKeyboardButton('爪卂几ᘜ卂', callback_data='style+manga'),
             InlineKeyboardButton('S̾t̾i̾n̾k̾y̾', callback_data='style+stinky'),
-            ],[
-            InlineKeyboardButton('B̥ͦu̥ͦb̥ͦb̥ͦl̥ͦe̥ͦs̥ͦ', callback_data='style+bubbles'),
-            InlineKeyboardButton('U͟n͟d͟e͟r͟l͟i͟n͟e͟', callback_data='style+underline'),
-            InlineKeyboardButton('꒒ꍏꀷꌩꌃꀎꁅ', callback_data='style+ladybug'),
-            ],[
-            InlineKeyboardButton('R҉a҉y҉s҉', callback_data='style+rays'),
-            InlineKeyboardButton('B҈i҈r҈d҈s҈', callback_data='style+birds'),
-            InlineKeyboardButton('S̸l̸a̸s̸h̸', callback_data='style+slash'),
-            ],[
-            InlineKeyboardButton('s⃠t⃠o⃠p⃠', callback_data='style+stop'),
-            InlineKeyboardButton('S̺͆k̺͆y̺͆l̺͆i̺͆n̺͆e̺͆', callback_data='style+skyline'),
-            InlineKeyboardButton('A͎r͎r͎o͎w͎s͎', callback_data='style+arrows'),
-            ],[
-            InlineKeyboardButton('ዪሀክቿነ', callback_data='style+qvnes'),
-            InlineKeyboardButton('S̶t̶r̶i̶k̶e̶', callback_data='style+strike'),
-            InlineKeyboardButton('F༙r༙o༙z༙e༙n༙', callback_data='style+frozen')
-            ],[
-            InlineKeyboardButton('⬅️ Back', callback_data='nxt+0')
         ]]
         await m.answer()
         await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
