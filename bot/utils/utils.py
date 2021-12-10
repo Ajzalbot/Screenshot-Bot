@@ -296,32 +296,8 @@ class Utilities:
                 i_keyboard = []
             if i == 21:
                 btns.append(i_keyboard)
-        btns.appends([InlineKeyboardButton("✂️𝑴𝒂𝒏𝒖𝒂𝒍 𝑺𝒄𝒓𝒆𝒆𝒏𝒔𝒉𝒐𝒕𝒔✂️", "mscht")]
-                     [InlineKeyboardButton("⚙️𝑻𝒓𝒊𝒎 𝑽𝒊𝒅𝒆𝒐⚙️", "trim")]),
-                   (
-                     [InlineKeyboardButton("📝𝑴𝒆𝒅𝒊𝒂 𝑰𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏📝", "mi")]
-                     [InlineKeyboardButton("📸𝑺𝒂𝒎𝒑𝒍𝒆 𝑽𝒊𝒅𝒆𝒐📸", "smpl")],
-                    )
+        btns.append([InlineKeyboardButton("✂️Manual Screenshots✂️", "mscht")]),
+        btns.append([InlineKeyboardButton("⚙️Trim Video⚙️", "trim")])
+        btns.append([InlineKeyboardButton("📝Get Media Information📝", "mi")]),
+        b
         return btns
-_________________________________________________________________________________________________
-
-   reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton('🍬 Project channel', url='https://telegram.me/MHND_BOT_UPDATE_CHANNEL'),
-                    InlineKeyboardButton('🍭 Support group', url='https://telegram.me/MHND_BOT_UPDATE_GROUP')
-                ],
-                [
-                    InlineKeyboardButton('🌹 Source code 🌹', url='https://telegram.me/MHND_BOT_UPDATE_CHANNEL/145'),
-                    InlineKeyboardButton('👩‍💻 Master', url='https://telegram.me/MHND_KDR')
-                ]
-            ]
-        )
-    )
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
