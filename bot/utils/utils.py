@@ -288,7 +288,6 @@ class Utilities:
     @staticmethod
     def gen_ik_buttons():
         btns = []
-        i_keyboard imoji = (📷)
         i_keyboard = []
         for i in range(1, 21):
             i_keyboard.append(InlineKeyboardButton(f"{i}", f"scht+{i}"))
