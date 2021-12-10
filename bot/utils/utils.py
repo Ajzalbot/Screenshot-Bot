@@ -302,5 +302,5 @@ class Utilities:
                      [InlineKeyboardButton("⚙️𝑻𝒓𝒊𝒎 𝑽𝒊𝒅𝒆𝒐⚙️", "trim")]),
                     (
                      [InlineKeyboardButton("📝𝑴𝒆𝒅𝒊𝒂 𝑰𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏📝", "mi")]
-                     [("Smpl")]),
+                     [("smpl")]),
         return btns
