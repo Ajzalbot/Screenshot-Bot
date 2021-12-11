@@ -24,7 +24,7 @@ async def start(c, m):
                     InlineKeyboardButton('👩‍💻 𝕄𝕒𝕤𝕥𝕖𝕣', url='https://telegram.me/MHND_KDR')
                 ],
                 [
-                    InlineKeyboardButton('🌹 𝕊𝕠𝕦𝕣𝕔𝕖\t𝕔𝕠𝕕𝕖', url='https://telegram.me/MHND_BOT_UPDATE_CHANNEL/145')
+                    InlineKeyboardButton('𝑯𝒐𝒘/t𝒖𝒔𝒆/t𝒕𝒉𝒊𝒔/t𝒃𝒐𝒕/t🤔', url='https://telegram.me/MHND_BOT_UPDATE_CHANNEL/145')
                 ]
             ]
         )
