@@ -8,7 +8,7 @@ from ..screenshotbot import ScreenShotBot
 async def start(c, m):
 
     await m.reply_text(
-        text=f"Hi 👋 the\tre {m.from_user.mention}.\n\nI'm Screenshot Generator Bot.\n\nSend the file you "
+        text=f"Hi 👋 there {m.from_user.mention}.\n\nI'm Screenshot Generator Bot.\n\nSend the file you "
         "want to👉 [this bot](tg://resolve?domain=BEST_FILE_STREAM_BOT).\nThen paste the👉 [link here](tg://resolve?domain=SCREEN_SHOT_ROBOT)\n\nFor more "
         "details check /help.\n\n🚨 Porn Contents "
         "will be gives you PERMANENT BAN 🚨\n\n🍃 Bᴏᴛ Made Bʏ :@MHND_KDR",
